@@ -4,7 +4,9 @@ A responsive recreation of the **RemoteRecruit – Home/Features** page based on
 
 ## Live Demo
 
-> Deploy URL will be added after deployment.
+Deploy via [Vercel](https://vercel.com) by importing the GitHub repository (see Deployment below).
+
+**Repository:** [https://github.com/Francisco98-p/job](https://github.com/Francisco98-p/job)
 
 ## Tech Stack
 
@@ -69,7 +71,17 @@ npm run preview
 
 ## Deployment
 
-This project is configured for [Vercel](https://vercel.com). Connect the GitHub repository and deploy with default settings (framework preset: Vite).
+### Vercel (recommended)
+
+1. Go to [vercel.com/new](https://vercel.com/new)
+2. Import the repository `Francisco98-p/job`
+3. Keep the default Vite settings and click **Deploy**
+
+Or from the CLI after `vercel login`:
+
+```bash
+npx vercel --prod
+```
 
 ## Known Issues & Limitations
 
